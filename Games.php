@@ -12,7 +12,7 @@ class Games extends Product{
   }
 
   public function printInfo() {
-    return "$this->nome" . " - " . "$this->material" . ", " . "$this->size" . " - " . "€ $this->price";
+    return "$this->name" . " - " . "$this->material" . ", " . "$this->size" . " - " . "€ $this->price";
   }
 }
 ?>

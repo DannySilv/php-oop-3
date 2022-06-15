@@ -14,7 +14,7 @@ class Kennels extends Product{
   }
 
   public function printInfo() {
-    return "$this->nome" . " - " . "$this->material" . ", " . "$this->size" . ", " . "$this->purpose" . " - " . "€ $this->price";
+    return "$this->name" . " - " . "$this->material" . ", " . "$this->size" . ", " . "$this->purpose" . " - " . "€ $this->price";
   }
 }
 ?>
